@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebApi.Models.Todos\WebApi.Models.Todos.csproj" />
+    <ProjectReference Include="..\WebApi.Models.User\WebApi.Models.User.csproj" />
+    <ProjectReference Include="..\WebApi.Repos.Base\WebApi.Repos.Base.csproj" />
+  </ItemGroup>
+
+</Project>
