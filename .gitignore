@@ -5,3 +5,5 @@
 *.targets
 */obj/
 */bin/
+.vs/
+*.user
